@@ -4,6 +4,9 @@ input.onButtonPressed(Button.A, function () {
     255
     )
 })
+input.onButtonPressed(Button.B, function () {
+    basic.clearScreen()
+})
 basic.forever(function () {
 	
 })
